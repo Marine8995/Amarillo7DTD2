@@ -18,9 +18,9 @@
 
 			<hub_rule name="asiatown" prob="0.3"/>			
 			<hub_rule name="townSmall" prob="0.3"/>
-			<hub_rule name="townLarge" prob="0.3"/>
-			<hub_rule name="citySmall" prob="0.3"/>
-			<hub_rule name="cityLarge" prob="0.5"/>
+			<hub_rule name="townLarge" prob="0.2"/>
+			<hub_rule name="citySmall" prob="0.2"/>
+			<hub_rule name="cityLarge" prob="0.2"/>
 			<hub_rule name="rural" prob="0.3"/>
 			
 			
@@ -68,8 +68,8 @@
 	
 		<hub_rule name="ruralSmall">
 			<hub_type value="rural"/>
-			<width value="250, 300" />
-			<height value="250, 300" />
+			<width value="168, 250" />
+			<height value="168, 250" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -89,8 +89,8 @@
 		
 		<hub_rule name="ruralLarge">
 			<hub_type value="rural"/>
-			<width value="300, 400" />
-			<height value="300, 400" />
+			<width value="250, 300" />
+			<height value="250, 300" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -110,8 +110,8 @@
 		
 		<hub_rule name="townSmall">
 			<hub_type value="town"/>
-			<width value="400, 600" />
-			<height value="400, 600" />
+			<width value="300, 400" />
+			<height value="300, 400" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -131,8 +131,8 @@
 		
 		<hub_rule name="townLarge">
 			<hub_type value="town"/>
-			<width value="600, 800" />
-			<height value="600, 800" />
+			<width value="400, 600" />
+			<height value="400, 600" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -152,8 +152,8 @@
 		
 		<hub_rule name="citySmall">
 			<hub_type value="city"/>
-			<width value="800, 1200" />
-			<height value="800, 1200" />
+			<width value="600, 800" />
+			<height value="600, 800" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 			<downtown_zone_size_perc value="0.45"/>
@@ -174,8 +174,8 @@
 		
 		<hub_rule name="cityLarge">
 			<hub_type value="city"/>
-			<width value="1200, 1800" />
-			<height value="1200, 1800" />
+			<width value="800, 1200" />
+			<height value="800, 1200" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 			<downtown_zone_size_perc value="0.45"/>
@@ -1046,7 +1046,7 @@
 			
 			<module name="scaleBiasOutput" type="ScaleBiasOutput">
 				<property name="sourceModule" value="finalLand"/>
-				<property name="scale" value="100"/>
+				<property name="scale" value="182"/>
 			</module>
 
 			<output module="scaleBiasOutput"/>
