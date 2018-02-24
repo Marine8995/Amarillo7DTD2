@@ -603,6 +603,29 @@
 			<prefab name="junkyard_lg_01" max_count="1" />
 			<prefab name="junkyard_med_01" max_count="1" />
 			<prefab name="army_barracks_01" max_count="1" />			
+			<prefab name="mp_waste_bldg_01_white" max_count="1" />
+			<prefab name="mp_waste_bldg_03_white" max_count="1" />
+			<prefab name="mp_waste_bldg_04_white" max_count="1" />
+			<prefab name="mp_waste_bldg_01_red" max_count="1" />
+			<prefab name="mp_waste_bldg_02_red" max_count="1" />
+			<prefab name="mp_waste_bldg_03_red" max_count="1" />
+			<prefab name="mp_waste_bldg_04_red" max_count="1" />
+			<prefab name="mp_waste_bldg_01_tan" max_count="1" />
+			<prefab name="mp_waste_bldg_02_tan" max_count="1" />
+			<prefab name="mp_waste_bldg_03_tan" max_count="1" />
+			<prefab name="mp_waste_bldg_04_tan" max_count="1" />
+			<prefab name="mp_waste_bldg_04_grey" max_count="1" />
+			<prefab name="mp_waste_bldg_05_grey" max_count="1" />
+			<prefab name="mp_waste_bldg_06_grey" max_count="1" />
+			<prefab name="waste_rubble_bldg_01" max_count="1" />
+			<prefab name="waste_rubble_bldg_02" max_count="1" />
+			<prefab name="waste_rubble_bldg_03" max_count="1" />
+			<prefab name="waste_rubble_bldg_04" max_count="1" />
+			<prefab name="waste_rubble_bldg_05" max_count="1" />
+			<prefab name="waste_rubble_bldg_06" max_count="1" />
+			<prefab name="waste_rubble_bldg_07" max_count="1" />
+			<prefab name="waste_rubble_bldg_08" max_count="1" />
+			<prefab name="waste_rubble_bldg_09" max_count="1" />													   
 			<prefab name="mp_waste_sewer_hole_1" max_count="1" />
 			<prefab name="xcostum_Power_Station(by_LuckyStar)" max_count="1" />
 			<prefab name="xcostum_Hydro_Plant(by_LuckyStar)" max_count="1" />
