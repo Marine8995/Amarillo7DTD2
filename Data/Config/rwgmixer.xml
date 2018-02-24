@@ -20,8 +20,9 @@
 			<hub_rule name="townSmall" prob="0.3"/>
 			<hub_rule name="townLarge" prob="0.2"/>
 			<hub_rule name="citySmall" prob="0.2"/>
-			<hub_rule name="cityLarge" prob="0.2"/>
-			<hub_rule name="rural" prob="0.3"/>
+			<hub_rule name="cityLarge" prob="0.5"/>
+			<hub_rule name="ruralSmall" prob="0.3"/>
+            <hub_rule name="ruralLarge" prob="0.3"/>
 			
 			
 			<wilderness_rule name="wildernessDefault"/>
@@ -1046,7 +1047,7 @@
 			
 			<module name="scaleBiasOutput" type="ScaleBiasOutput">
 				<property name="sourceModule" value="finalLand"/>
-				<property name="scale" value="182"/>
+				<property name="scale" value="100"/>
 			</module>
 
 			<output module="scaleBiasOutput"/>
