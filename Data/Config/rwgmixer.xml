@@ -3,7 +3,7 @@
 	<world ruleset="vanilla" />
 	
 	<rulesets>
-		<ruleset name="vanilla" cell_cache_size="8" cell_size="1500" cell_offset="0" generation_distance="10000" terrain_generator="vanilla" biome_generator="vanilla">
+		<ruleset name="vanilla" cell_cache_size="8" cell_size="1200" cell_offset="0" generation_distance="10000" terrain_generator="vanilla" biome_generator="vanilla">
 			<cell_rule name="default" prob="1"/>
 			<!-- <cell_rule name="customHubTest" position="0,1" prob="0"/> -->
 
@@ -47,8 +47,8 @@
 	
 		<hub_rule name="asiatown">
 			<hub_type value="town"/>
-			<width value="200, 250" />
-			<height value="200, 250" />
+			<width value="400, 600" />
+			<height value="400, 600" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -69,8 +69,8 @@
 	
 		<hub_rule name="ruralSmall">
 			<hub_type value="rural"/>
-			<width value="168, 250" />
-			<height value="168, 250" />
+			<width value="400, 600" />
+			<height value="400, 600" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -90,8 +90,8 @@
 		
 		<hub_rule name="ruralLarge">
 			<hub_type value="rural"/>
-			<width value="250, 300" />
-			<height value="250, 300" />
+			<width value="600, 800" />
+			<height value="600, 800" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -111,8 +111,8 @@
 		
 		<hub_rule name="townSmall">
 			<hub_type value="town"/>
-			<width value="300, 400" />
-			<height value="300, 400" />
+			<width value="600, 800" />
+			<height value="600, 800" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
@@ -132,8 +132,8 @@
 		
 		<hub_rule name="townLarge">
 			<hub_type value="town"/>
-			<width value="400, 600" />
-			<height value="400, 600" />
+			<width value="600, 800" />
+			<height value="600, 800" />
 			<path_material value="asphalt" /> 
 			<path_radius value="10" />
 
