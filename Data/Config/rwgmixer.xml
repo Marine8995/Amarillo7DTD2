@@ -255,6 +255,7 @@
 
 		
 		<prefab_rule name="default">
+			<prefab rule="traderGroup"/>
 			<prefab rule="residentialOldGroup"/>
 			<prefab rule="residentialNewGroup"/>
 			<prefab rule="commercialGroup"/>
