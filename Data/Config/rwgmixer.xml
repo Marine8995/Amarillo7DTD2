@@ -427,7 +427,7 @@
 			<prefab name="store_book_sm_01" prob="0.8" max_count="1" />
 			<prefab name="store_book_lg_01" prob="0.6" max_count="1" />
 			<prefab name="store_grocery_lg_01" prob="0.6" max_count="1" />
-			<prefab name="store_grocery_sm_01" prob="0.8" max_count="1" />
+			<prefab name="store_grocery_sm_01" prob="0.8" max_count="2" />
 			<prefab name="store_bank_lg_01" max_count="1" />
 			<prefab name="gas_station1" max_count="1" />
 			<prefab name="gas_station2" max_count="1" />
@@ -458,10 +458,10 @@
 			<prefab name="xcostum_Bank(by_Guppycur)" max_count="1" />
 			<prefab name="xcostum_Bank(by_Limodor)" max_count="1" />
 			<prefab name="xcostum_MultiStore(by_ANT)" max_count="1" />
-			<prefab name="xcostum_SuperStore(by_Volar)" max_count="1" />
+			<prefab name="xcostum_SuperStore(by_Volar)" max_count="2" />
 			<prefab name="xcostum_Shrub_Conservatory(by_Werewulfen)" min_count="1" max_count="1" />
 			<prefab name="xcostum_Store_Automotive_sm(by_Laz_Man)" min_count="1" max_count="1" />
-			<prefab name="xcostum_Stripmall(by_Guppycur)" min_count="1" max_count="1" />
+			<prefab name="xcostum_Stripmall(by_Guppycur)" min_count="1" max_count="2" />
 			<prefab name="xcostum_townsquare(by_snake0567)" min_count="1" max_count="1" />
 			<prefab name="xcostum_Warehouse(by_Illidua)" max_count="1" />
 			<prefab name="xcostum_pistol_gunshop(by_magoli)" max_count="1" />
@@ -523,7 +523,7 @@
 			<prefab name="xcostum_Firestation(by_Slick50)" max_count="1" />
 			<prefab name="xcostum_Alms_house(ex_vanilla_ornate03)" max_count="1" />
 			<prefab name="xcostum_rollerskatedisco(by_magoli)" max_count="1" />
-			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" />
+			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="2" />
 			<prefab name="xcostum_CasinoANKH(by_magoli)" max_count="1" />
 			<prefab name="xcostum_Brownstones_House(by_Laz_Man)" max_count="1" />
 			<prefab name="xcostum_Apartments_Curtilage_Playground(by_magoli)" max_count="1" />
@@ -602,39 +602,16 @@
 			<prefab name="utility_celltower_02" max_count="1"/>
 			<prefab name="junkyard_lg_01" max_count="1" />
 			<prefab name="junkyard_med_01" max_count="1" />
-			<prefab name="army_barracks_01" max_count="1" />			
-			<prefab name="mp_waste_bldg_01_white" max_count="1" />
-			<prefab name="mp_waste_bldg_03_white" max_count="1" />
-			<prefab name="mp_waste_bldg_04_white" max_count="1" />
-			<prefab name="mp_waste_bldg_01_red" max_count="1" />
-			<prefab name="mp_waste_bldg_02_red" max_count="1" />
-			<prefab name="mp_waste_bldg_03_red" max_count="1" />
-			<prefab name="mp_waste_bldg_04_red" max_count="1" />
-			<prefab name="mp_waste_bldg_01_tan" max_count="1" />
-			<prefab name="mp_waste_bldg_02_tan" max_count="1" />
-			<prefab name="mp_waste_bldg_03_tan" max_count="1" />
-			<prefab name="mp_waste_bldg_04_tan" max_count="1" />
-			<prefab name="mp_waste_bldg_04_grey" max_count="1" />
-			<prefab name="mp_waste_bldg_05_grey" max_count="1" />
-			<prefab name="mp_waste_bldg_06_grey" max_count="1" />
-			<prefab name="waste_rubble_bldg_01" max_count="1" />
-			<prefab name="waste_rubble_bldg_02" max_count="1" />
-			<prefab name="waste_rubble_bldg_03" max_count="1" />
-			<prefab name="waste_rubble_bldg_04" max_count="1" />
-			<prefab name="waste_rubble_bldg_05" max_count="1" />
-			<prefab name="waste_rubble_bldg_06" max_count="1" />
-			<prefab name="waste_rubble_bldg_07" max_count="1" />
-			<prefab name="waste_rubble_bldg_08" max_count="1" />
-			<prefab name="waste_rubble_bldg_09" max_count="1" />													   
+			<prefab name="army_barracks_01" max_count="1" />																   
 			<prefab name="mp_waste_sewer_hole_1" max_count="1" />
 			<prefab name="xcostum_Power_Station(by_LuckyStar)" max_count="1" />
 			<prefab name="xcostum_Hydro_Plant(by_LuckyStar)" max_count="1" />
 			<prefab name="xcostum_Cell_Tower(by_LuckyStar)" max_count="1" />
-			<prefab name="xcostum_Science_lab(by_kinklade)" max_count="1" />
-			<prefab name="xcostum_Prison1(by_Curbolt)" max_count="1" />
+			<prefab name="xcostum_Science_lab(by_kinklade)" max_count="2" />
+			<prefab name="xcostum_Prison1(by_Curbolt)" max_count="2" />
 			<prefab name="xcostum_Asylum(by_Wsiegel)" max_count="1" />			
-			<prefab name="xcostum_Haulier_lg(by_Limodor)" max_count="1" />
-			<prefab name="xcostum_CountyJail(by_Volar)" max_count="1" />
+			<prefab name="xcostum_Haulier_lg(by_Limodor)" max_count="2" />
+			<prefab name="xcostum_CountyJail(by_Volar)" max_count="2" />
 			<prefab name="xcostum_Plant(by_Wsiegel)" max_count="1" />
 			<prefab name="xcostum_Windowfactory(by_magoli)" max_count="1" />
 			<prefab name="xcostum_shootingrange(by_magoli)" max_count="1" />			
