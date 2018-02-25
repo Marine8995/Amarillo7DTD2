@@ -1141,9 +1141,9 @@
 			<distance_from_center range="10000,20000"/>
 		</biome_spawn_rule>
 		
-		<biome_spawn_rule name="water">
+		<!-- <biome_spawn_rule name="water">
 			<terrain_generator range="-31,-1"/>
-		</biome_spawn_rule>
+		</biome_spawn_rule> -->
 		
 	</biome_spawn_rules>
 </rwgmixer>
