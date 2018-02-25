@@ -217,6 +217,7 @@
 
 
 		<prefab_rule name="asiatownPOIS">
+			<prefab rule="traderGroup" min_count="1" max_count="1" prob="50"/>
 			<prefab name="xcostum_Asia_Apartments(by_magoli)" min_count="1" max_count="2" />
 			<prefab name="xcostum_Asia_ChineseMarket(by_magoli)" min_count="1" max_count="2" />
 			<prefab name="xcostum_Asia_Dojo(by_RedLotus)" min_count="1" max_count="2" />
@@ -418,7 +419,8 @@
 		</prefab_rule>
 
 		
-		<prefab_rule name="commercialGroup">	
+		<prefab_rule name="commercialGroup">
+			<prefab rule="traderGroup" min_count="1" max_count="1" prob="50"/>
 			<prefab name="store_gun_sm_01" min_count="1" max_count="2" />
 			<prefab name="store_gun_lg_01" min_count="1" max_count="1" />
 			<prefab name="store_pharmacy_sm_01" max_count="1" />
@@ -589,7 +591,8 @@
 			<prefab name="xcostum_Skycpraper(by_Peppino)" max_count="1" prob="50" />	
 		</prefab_rule>
 
-		<prefab_rule name="industrialGroup">	
+		<prefab_rule name="industrialGroup">
+			<prefab rule="traderGroup" min_count="1" max_count="1" prob="50"/>
 			<prefab name="utility_waterworks_01" max_count="1" />
 			<prefab name="utility_electric_co_01" max_count="1" />
 			<prefab name="utility_refinery_01" max_count="1"/>
@@ -618,7 +621,8 @@
 		</prefab_rule>
 
 		
-		<prefab_rule name="ruralGroup">	
+		<prefab_rule name="ruralGroup">
+			<prefab rule="traderGroup" min_count="1" max_count="1" prob="50"/>
 			<prefab name="blueberryfield_sm" max_count="1" />
 			<prefab name="barn_01" max_count="1" />
 			<prefab name="barn_02" max_count="1" />
