@@ -312,7 +312,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="30" max="50" prob=".3"/>
 			<Precipitation min="0" max="0" prob=".0"/>
 			<!-- it has to be at least 70% cloudy before it can rain removing this second chance for it to not rain since it never rains any more-->
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -451,7 +451,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>
 			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -610,7 +610,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>
 			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -771,7 +771,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>>
 			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
       <ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="7"/>
@@ -904,7 +904,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>
 			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -1071,7 +1071,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>
 			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -1383,7 +1383,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>
 			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -1448,7 +1448,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<Fog min="10" max="40" prob="1"/>
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>
-			<Precipitation min="100" max="100" prob="1"/>
+			<Precipitation min="100" max="100" prob="0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
@@ -1514,7 +1514,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<CloudThickness min="10" max="30" prob=".5"/>
 			<CloudThickness min="30" max="50" prob=".3"/>
 			<Precipitation min="0" max="0" prob=".0"/>
-			<Precipitation min="60" max="100" prob=".75"/>
+			<Precipitation min="60" max="100" prob=".0"/>
 			<Wind min="10" max="20" prob="0.9"/>
 			<Wind min="20" max="100" prob="0.1"/>
 		</weather>
