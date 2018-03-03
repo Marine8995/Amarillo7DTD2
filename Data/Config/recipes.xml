@@ -2901,6 +2901,26 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="gunsandoilbeer" count="1"/>
     <ingredient name="wood" count="10"/>    
 </recipe>
+
+<recipe name="militaryAugerPartsUpgrade" count="1" craft_area="workbench" craft_exp_gain="250">
+	<ingredient name="militaryAugerParts" count="1"/>
+	<ingredient name="forgedSteel" count="25"/>
+</recipe>
+
+<recipe name="militaryAugerBladeUpgrade" count="1" craft_area="workbench" craft_exp_gain="250">
+	<ingredient name="militaryAugerBlade" count="1"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="militaryChainsawPartsUpgrade" count="1" craft_area="workbench" craft_exp_gain="250">
+	<ingredient name="forgedSteel" count="25"/>
+	<ingredient name="militaryChainsawParts" count="1"/>
+</recipe>
+
+<recipe name="militaryChainsawBladeUpgrade" count="1" craft_area="workbench" craft_exp_gain="250">
+	<ingredient name="forgedSteel" count="50"/>
+	<ingredient name="militaryChainsawBlade" count="1"/>
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)
