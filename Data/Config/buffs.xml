@@ -599,4 +599,10 @@ This requires a 50+ food bar:
 	<modify id="0" stat="health" amount="-3" rate="0.5"/>
 	<modify id="1" stat="speedmodifier" mulValue="0.1" duration="3.2"/>
 </buff>
+
+<!-- Disabled stupid weather -->
+<buff id="StopTempEffects" stack="discard" duration="0" buffif="coretemp greater 0" debuffif="coretemp less -100" type="coretemp">
+<modify id="0" stat="coretemp" setValue="70"/>
+</buff>
+
 </buffs>
