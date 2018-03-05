@@ -15,7 +15,7 @@
 	<!-- How quickly in second it takes you to become fully soaked from snowfall -->
 	<property name="SnowfallSoakRate" value="600"/>
 	<!-- If players core temp is below this value they will not dry off. -->
-	<property name="DryTempCutoff" value="40"/>
+	<property name="DryTempCutoff" value="0"/>
 	<!-- Per degree over DryTempCutoff how many percent per-second to dry (1=100%) -->
 	<property name="DryPercentPerSecondPerDegree" value="0.00020833"/>
 	<!-- Max percent per second the player can dry off  (1=100%) -->
@@ -23,19 +23,19 @@
 	<!-- How many degrees per second your core temp changes when you are dry. -->
 	<property name="CoreTempChangeRateWhenDry" value="0.075"/>
 	<!-- How many degrees per second your core temp changes when you are wet. -->
-	<property name="CoreTempChangeRateWhenWet" value="0.5"/>
+	<property name="CoreTempChangeRateWhenWet" value="0.075"/>
 	<!-- How much to multiply the change rate when player temperature is going to a positive. -->
-	<property name="PositiveTempChangeRateMultiplier" value="2"/>
+	<property name="PositiveTempChangeRateMultiplier" value="1"/>
 	<!-- If player core temp is below this, heating effects are applied at the PositiveTempChangeRateMultiplier rate. -->
-	<property name="ColdTempChangeThreshhold" value="45"/>
+	<property name="ColdTempChangeThreshhold" value="68"/>
 	<!-- If player core temp is above this, cooling effects are applied at the PositiveTempChangeRateMultiplier rate. -->
-	<property name="HotTempChangeThreshhold" value="90"/>
+	<property name="HotTempChangeThreshhold" value="68"/>
 	<!-- How much change you feel in the outside air temperature when you are 100% wet. -->
-	<property name="OutsideTempChangeWhenSoaked" value="-30"/>
+	<property name="OutsideTempChangeWhenSoaked" value="-10"/>
 	<!-- Base temperature when you are wet. -->
 	<property name="BaseOutsideTempChangeWhenWet" value="0"/>
 	<!-- How much change you feel in the outside air temperature when wet and 100% windy. -->
-	<property name="WindyOutsideTempChangeWhenWet" value="-10"/>
+	<property name="WindyOutsideTempChangeWhenWet" value="-5"/>
 	<!-- How much change you feel in the outside air temperature when dry and 100% windy. -->
 	<property name="WindyOutsideTempChangeWhenDry" value="-3"/>
 	<!-- How much direct sunlight warms you. -->
@@ -49,32 +49,32 @@
 	<!-- How much the temp changes when you are idle. -->
 	<property name="OutsideTempShiftWhenIdle" value="0"/>
 
-	<TemperatureHeight height="0" addDegrees="10"/>
-	<TemperatureHeight height="12" addDegrees="8"/>
-	<TemperatureHeight height="24" addDegrees="6"/>
-	<TemperatureHeight height="36" addDegrees="4"/>
-	<TemperatureHeight height="48" addDegrees="2"/>
+	<TemperatureHeight height="0" addDegrees="1"/>
+	<TemperatureHeight height="12" addDegrees="1"/>
+	<TemperatureHeight height="24" addDegrees="1"/>
+	<TemperatureHeight height="36" addDegrees="1"/>
+	<TemperatureHeight height="48" addDegrees="1"/>
 	<TemperatureHeight height="60" addDegrees="0"/>
 	<TemperatureHeight height="68" addDegrees="-1"/>
-	<TemperatureHeight height="76" addDegrees="-2"/>
-	<TemperatureHeight height="84" addDegrees="-3"/>
-	<TemperatureHeight height="92" addDegrees="-4"/>
-	<TemperatureHeight height="100" addDegrees="-5"/>
-	<TemperatureHeight height="106" addDegrees="-6"/>
-	<TemperatureHeight height="118" addDegrees="-8"/>
-	<TemperatureHeight height="130" addDegrees="-10"/>
-	<TemperatureHeight height="133" addDegrees="-12"/>
-	<TemperatureHeight height="137" addDegrees="-14"/>
-	<TemperatureHeight height="142" addDegrees="-17"/>
-	<TemperatureHeight height="147" addDegrees="-20"/>
-	<TemperatureHeight height="153" addDegrees="-23"/>
-	<TemperatureHeight height="158" addDegrees="-26"/>
-	<TemperatureHeight height="163" addDegrees="-29"/>
-	<TemperatureHeight height="168" addDegrees="-32"/>
-	<TemperatureHeight height="174" addDegrees="-35"/>
-	<TemperatureHeight height="179" addDegrees="-38"/>
-	<TemperatureHeight height="184" addDegrees="-41"/>
-	<TemperatureHeight height="189" addDegrees="-44"/>
-	<TemperatureHeight height="195" addDegrees="-47"/>
-	<TemperatureHeight height="200" addDegrees="-50"/>
+	<TemperatureHeight height="76" addDegrees="-1"/>
+	<TemperatureHeight height="84" addDegrees="-1"/>
+	<TemperatureHeight height="92" addDegrees="-1"/>
+	<TemperatureHeight height="100" addDegrees="-1"/>
+	<TemperatureHeight height="106" addDegrees="-1"/>
+	<TemperatureHeight height="118" addDegrees="-1"/>
+	<TemperatureHeight height="130" addDegrees="-1"/>
+	<TemperatureHeight height="133" addDegrees="-1"/>
+	<TemperatureHeight height="137" addDegrees="-1"/>
+	<TemperatureHeight height="142" addDegrees="-1"/>
+	<TemperatureHeight height="147" addDegrees="-1"/>
+	<TemperatureHeight height="153" addDegrees="-1"/>
+	<TemperatureHeight height="158" addDegrees="-1"/>
+	<TemperatureHeight height="163" addDegrees="-1"/>
+	<TemperatureHeight height="168" addDegrees="-1"/>
+	<TemperatureHeight height="174" addDegrees="-1"/>
+	<TemperatureHeight height="179" addDegrees="-1"/>
+	<TemperatureHeight height="184" addDegrees="-1"/>
+	<TemperatureHeight height="189" addDegrees="-1"/>
+	<TemperatureHeight height="195" addDegrees="-1"/>
+	<TemperatureHeight height="200" addDegrees="-1"/>
 </weathersurvival>
