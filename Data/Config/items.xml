@@ -1560,7 +1560,7 @@ Mesh files no longer used:
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="9,22"/>
-		<property name="BlockDamage" value="30,72"/>
+		<property name="BlockDamage" value="40,102"/>
 		<property name="DegradationMax" value="500,1400"/>
 	</property>
 </item>
@@ -1621,7 +1621,7 @@ Mesh files no longer used:
 	<property name="Group" value="Tools/Traps"/>
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,20"/>
-		<property name="BlockDamage" value="55,137"/> <!-- up to x4 from skills -->
+		<property name="BlockDamage" value="66,161"/> <!-- up to x4 from skills -->
 		<property name="DegradationMax" value="500,1400"/>
 	</property>
 </item>
